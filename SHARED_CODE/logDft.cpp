@@ -69,7 +69,7 @@ logDft::logDft():refNoteFreq(440.0), bIsProcessed(false), bIsSetup(false){
 		int accumSize =0;
 		for (int i =0; i < totalBins; i++) {
 			binFreqs[i] = getNoteFreq(Notes(i+startNote) );
-			sizeLut[i] = freqToBinSize(binFreqs[i], sampRate);
+			sizeLut[i] = getBinSizeFromFreq(binFreqs[i], sampRate);
 			indLut[i] = accumSize;
 			accumSize+=sizeLut[i];
 		}

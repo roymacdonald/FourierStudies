@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B09D4F371B27CFAC0051A2F8 /* logDft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B09D4F2D1B27CFAC0051A2F8 /* logDft.cpp */; };
+		B09D4F381B27CFAC0051A2F8 /* logDftRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B09D4F2F1B27CFAC0051A2F8 /* logDftRenderer.cpp */; };
+		B09D4F391B27CFAC0051A2F8 /* ndftRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B09D4F331B27CFAC0051A2F8 /* ndftRenderer.cpp */; };
 		B0EB207A1AF2163A0017D000 /* ndftRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0EB20781AF2163A0017D000 /* ndftRenderer.cpp */; };
-		B0EB20841AF2168A0017D000 /* ofxConstantQ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0EB207E1AF2168A0017D000 /* ofxConstantQ.cpp */; };
-		B0EB20851AF2168A0017D000 /* ofxConstantQRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0EB20801AF2168A0017D000 /* ofxConstantQRenderer.cpp */; };
 		B0EB20991AF216EE0017D000 /* ofxBaseGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0EB20881AF216EE0017D000 /* ofxBaseGui.cpp */; };
 		B0EB209A1AF216EE0017D000 /* ofxButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0EB208A1AF216EE0017D000 /* ofxButton.cpp */; };
 		B0EB209B1AF216EE0017D000 /* ofxGuiGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0EB208D1AF216EE0017D000 /* ofxGuiGroup.cpp */; };
@@ -53,16 +54,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B09D4F2B1B27CFAC0051A2F8 /* dft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dft.h; sourceTree = "<group>"; };
+		B09D4F2C1B27CFAC0051A2F8 /* fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fft.h; sourceTree = "<group>"; };
+		B09D4F2D1B27CFAC0051A2F8 /* logDft.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = logDft.cpp; sourceTree = "<group>"; };
+		B09D4F2E1B27CFAC0051A2F8 /* logDft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logDft.h; sourceTree = "<group>"; };
+		B09D4F2F1B27CFAC0051A2F8 /* logDftRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = logDftRenderer.cpp; sourceTree = "<group>"; };
+		B09D4F301B27CFAC0051A2F8 /* logDftRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logDftRenderer.h; sourceTree = "<group>"; };
+		B09D4F311B27CFAC0051A2F8 /* MusicalNotesUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicalNotesUtils.h; sourceTree = "<group>"; };
+		B09D4F321B27CFAC0051A2F8 /* ndft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ndft.h; sourceTree = "<group>"; };
+		B09D4F331B27CFAC0051A2F8 /* ndftRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ndftRenderer.cpp; sourceTree = "<group>"; };
+		B09D4F341B27CFAC0051A2F8 /* ndftRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ndftRenderer.h; sourceTree = "<group>"; };
+		B09D4F351B27CFAC0051A2F8 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		B09D4F361B27CFAC0051A2F8 /* windowing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = windowing.h; sourceTree = "<group>"; };
 		B0EB20751AF1FD4F0017D000 /* ndft.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ndft.h; sourceTree = "<group>"; };
 		B0EB20781AF2163A0017D000 /* ndftRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ndftRenderer.cpp; sourceTree = "<group>"; };
 		B0EB20791AF2163A0017D000 /* ndftRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ndftRenderer.h; sourceTree = "<group>"; };
-		B0EB207D1AF2168A0017D000 /* fft.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fft.h; sourceTree = "<group>"; };
-		B0EB207E1AF2168A0017D000 /* ofxConstantQ.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxConstantQ.cpp; sourceTree = "<group>"; };
-		B0EB207F1AF2168A0017D000 /* ofxConstantQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxConstantQ.h; sourceTree = "<group>"; };
-		B0EB20801AF2168A0017D000 /* ofxConstantQRenderer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxConstantQRenderer.cpp; sourceTree = "<group>"; };
-		B0EB20811AF2168A0017D000 /* ofxConstantQRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxConstantQRenderer.h; sourceTree = "<group>"; };
-		B0EB20821AF2168A0017D000 /* utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
-		B0EB20831AF2168A0017D000 /* windowing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = windowing.h; sourceTree = "<group>"; };
 		B0EB20881AF216EE0017D000 /* ofxBaseGui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxBaseGui.cpp; sourceTree = "<group>"; };
 		B0EB20891AF216EE0017D000 /* ofxBaseGui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxBaseGui.h; sourceTree = "<group>"; };
 		B0EB208A1AF216EE0017D000 /* ofxButton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxButton.cpp; sourceTree = "<group>"; };
@@ -102,27 +108,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B0EB207B1AF2168A0017D000 /* ofxConstantQ */ = {
+		B09D4F2A1B27CFAC0051A2F8 /* SHARED_CODE */ = {
 			isa = PBXGroup;
 			children = (
-				B0EB207C1AF2168A0017D000 /* src */,
+				B09D4F2B1B27CFAC0051A2F8 /* dft.h */,
+				B09D4F2C1B27CFAC0051A2F8 /* fft.h */,
+				B09D4F2D1B27CFAC0051A2F8 /* logDft.cpp */,
+				B09D4F2E1B27CFAC0051A2F8 /* logDft.h */,
+				B09D4F2F1B27CFAC0051A2F8 /* logDftRenderer.cpp */,
+				B09D4F301B27CFAC0051A2F8 /* logDftRenderer.h */,
+				B09D4F311B27CFAC0051A2F8 /* MusicalNotesUtils.h */,
+				B09D4F321B27CFAC0051A2F8 /* ndft.h */,
+				B09D4F331B27CFAC0051A2F8 /* ndftRenderer.cpp */,
+				B09D4F341B27CFAC0051A2F8 /* ndftRenderer.h */,
+				B09D4F351B27CFAC0051A2F8 /* utils.h */,
+				B09D4F361B27CFAC0051A2F8 /* windowing.h */,
 			);
-			name = ofxConstantQ;
-			sourceTree = "<group>";
-		};
-		B0EB207C1AF2168A0017D000 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				B0EB207D1AF2168A0017D000 /* fft.h */,
-				B0EB207E1AF2168A0017D000 /* ofxConstantQ.cpp */,
-				B0EB207F1AF2168A0017D000 /* ofxConstantQ.h */,
-				B0EB20801AF2168A0017D000 /* ofxConstantQRenderer.cpp */,
-				B0EB20811AF2168A0017D000 /* ofxConstantQRenderer.h */,
-				B0EB20821AF2168A0017D000 /* utils.h */,
-				B0EB20831AF2168A0017D000 /* windowing.h */,
-			);
-			name = src;
-			path = ../../../addons/ofxConstantQ/src;
+			name = SHARED_CODE;
+			path = ../SHARED_CODE;
 			sourceTree = "<group>";
 		};
 		B0EB20861AF216EE0017D000 /* ofxGui */ = {
@@ -162,7 +165,6 @@
 			isa = PBXGroup;
 			children = (
 				B0EB20861AF216EE0017D000 /* ofxGui */,
-				B0EB207B1AF2168A0017D000 /* ofxConstantQ */,
 			);
 			name = addons;
 			sourceTree = "<group>";
@@ -178,6 +180,7 @@
 		E4B69B4A0A3A1720003C02F2 = {
 			isa = PBXGroup;
 			children = (
+				B09D4F2A1B27CFAC0051A2F8 /* SHARED_CODE */,
 				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
 				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
 				E4B69E1C0A3A1BDC003C02F2 /* src */,
@@ -297,18 +300,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0EB209C1AF216EE0017D000 /* ofxLabel.cpp in Sources */,
-				B0EB20851AF2168A0017D000 /* ofxConstantQRenderer.cpp in Sources */,
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
-				B0EB20841AF2168A0017D000 /* ofxConstantQ.cpp in Sources */,
 				B0EB209F1AF216EE0017D000 /* ofxSliderGroup.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
 				B0EB209A1AF216EE0017D000 /* ofxButton.cpp in Sources */,
+				B09D4F381B27CFAC0051A2F8 /* logDftRenderer.cpp in Sources */,
 				B0EB209E1AF216EE0017D000 /* ofxSlider.cpp in Sources */,
 				B0EB20991AF216EE0017D000 /* ofxBaseGui.cpp in Sources */,
+				B09D4F391B27CFAC0051A2F8 /* ndftRenderer.cpp in Sources */,
 				B0EB207A1AF2163A0017D000 /* ndftRenderer.cpp in Sources */,
 				B0EB209D1AF216EE0017D000 /* ofxPanel.cpp in Sources */,
 				B0EB20A01AF216EE0017D000 /* ofxToggle.cpp in Sources */,
 				B0EB209B1AF216EE0017D000 /* ofxGuiGroup.cpp in Sources */,
+				B09D4F371B27CFAC0051A2F8 /* logDft.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

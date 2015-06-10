@@ -3,6 +3,7 @@
 #include "ofMain.h"
 #include "ndft.h"
 #include "ndftRenderer.h"
+#include "ofSoundFile.h"
 class ofApp : public ofBaseApp{
 	public:
 		void setup();

@@ -223,17 +223,22 @@ private:
 		for (int i =0; i < totalBins; i++) {
 			//Notes n = Notes(i + (int)startNote);
 			//					cout << "Note: " << n << "  Freq: " << noteToFreq(Notes(i + (int)startNote)) << endl;
-			for (int b = 0; b < bufferSize; b++) {
-				cosLUT[i*bufferSize + b]= createCosWave(noteToFreq(Notes(i + (int)startNote)), sampRate, b);
-				sinLUT[i*bufferSize + b]= createSinWave(noteToFreq(Notes(i + (int)startNote)), sampRate, b);
+//			for (int b = 0; b < bufferSize; b++) {
+				//cosLUT[i*bufferSize + b]= createCosWave(getNoteFreq(Notes(i + (int)startNote)), sampRate, b);
+//				sinLUT[i*bufferSize + b]= createSinWave(getNoteFreq(Notes(i + (int)startNote)), sampRate, b);
+                createCosWave(&cosLUT[i*bufferSize], getNoteFreq(Notes(i + (int)startNote)), sampRate, bufferSize);
+                createSinWave(&sinLUT[i*bufferSize], getNoteFreq(Notes(i + (int)startNote)), sampRate, bufferSize);
+
 				//	cout << cosLUT[i*bufferSize + b] << endl;
+/*
 				if(isnan(cosLUT[i*bufferSize + b]) || isinf(cosLUT[i*bufferSize + b])){
 					cout << "cosLUT["<<i<<"]: " << "is nan or inf. " << endl;
 				}
 				if(isnan(sinLUT[i*bufferSize + b]) || isinf(sinLUT[i*bufferSize + b])){
 					cout << "sinLUT["<<i<<"]: " << "is nan or inf. " << endl;
 				}
-			}
+                //*/
+//			}
 		}
 		//		cout << "LUTs built!" << endl;
 	}
