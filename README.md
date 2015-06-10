@@ -20,6 +20,7 @@ then clone this repo
 ```
 cd openFrameworks/apps/
 git clone https://github.com/roymacdonald/FourierStudies.git
+open ./FourierStudies/
 ```
 
 once done just run the projects for each app. 
